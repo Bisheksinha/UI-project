@@ -36,9 +36,11 @@ nav ul li {
     /* transition: 1s 0.5s linear; */
     transition: 1s all;
 }
-nav ul list-style:hover{
+nav ul li:hover{
     cursor: pointer;
     border-bottom: 1px solid black;
+    
+
 }
 .page1{
     width: 100%;
@@ -193,4 +195,5 @@ background-color: rgb(220, 220,220);
      display: flex;
      justify-content: space-between;
 }
+
 
