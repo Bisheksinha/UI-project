@@ -11,6 +11,10 @@ body{
     background-color:antiquewhite;
     font-family: "gilroy";
 }
+a{
+    /* text-decoration: none; */
+    color: black;
+}
 nav,
 .page4nav{
     width: 100%;
@@ -40,6 +44,17 @@ nav ul li:hover{
     cursor: pointer;
     border-bottom: 1px solid black;
     
+
+}
+nav > h1{
+    color: black;
+    padding-bottom: 5px;
+    border-bottom:1px solid transparent ;
+    transition: 1s all;
+}
+nav h1 :hover{
+    cursor: pointer;
+    border-bottom: solid black;
 
 }
 .page1{
@@ -172,14 +187,15 @@ background-color: rgb(220, 220,220);
 }
 .page4content{
     position: relative;
-    font-size: 380px;
+    font-size: 250px;
     font-weight: 900;
     font-family: Bebas;
     text-align: center;
+    
 }
 .page4content > video{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
     object-fit: cover;
 }
 .page4footer{
@@ -195,5 +211,38 @@ background-color: rgb(220, 220,220);
      display: flex;
      justify-content: space-between;
 }
+.page5{
+    padding: 0 30px;
+    background-color: black;
+}
+.page5 > .page4nav{
+    font-size: 10px;
+    color: white;
+    position: initial;
+}
+.page5content{
+    position:relative;
+    color: white;
+    font-size: 200px;
+    font-weight: 900;
+    text-align: center;
+    font-family: Bebas;
+    justify-content: center;
+}
+.page5contentright{
+    position: relative;
+    color: white;
+    font-size: 25px;
+
+}
+.page5contentright > ul li{
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+
 
 
